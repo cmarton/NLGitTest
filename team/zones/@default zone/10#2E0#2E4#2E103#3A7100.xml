@@ -1,0 +1,5 @@
+<lg-host hostname="10.0.4.103:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="50da4e81-8717-4a2c-887d-96d87a42d07c" version="6.7.0 dev;build=branchHead-DEV">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

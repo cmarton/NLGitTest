@@ -1,0 +1,27 @@
+<me-host loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="QAWINL7Neo" version="6.7.0;build=20181015-48">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) PRO/1000 MT Network Connection"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="qawinl7neo">
+            <ip value="10.0.3.47"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:21b4:73a0:1402:4ed%eth3">
+            <ip value="fe80:0:0:0:21b4:73a0:1402:4ed%eth3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>
